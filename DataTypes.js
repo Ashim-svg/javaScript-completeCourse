@@ -25,4 +25,15 @@ console.log(+bool1);
 let undef;
 let nul = null;
 console.log(undef); // Output: undefined
+console.log(nul); // Output: null~
 // typeof null is object but it is not an object it is a special value that represents the intentional absence of any object value
+//big int is a new data type that was introduced in ES2020 it is used to represent integers that are larger than the maximum safe integer in JavaScript which is 2^53 - 1
+let bigInt = 1234567890123456789012345678901234567890n;
+console.log(bigInt); // Output: 1234567890123456789012345678901234567890n
+// typeof bigInt is bigint  
+//symbol is a new data type that was introduced in ES2015 it is used to represent unique identifiers
+let sym1 = Symbol('sym1');
+let sym2 = Symbol('sym2');
+console.log(sym1); // Output: Symbol(sym1)
+console.log(sym2); // Output: Symbol(sym2)
+// typeof sym1 is symbol and typeof sym2 is symbol  
